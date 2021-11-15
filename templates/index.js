@@ -1,6 +1,5 @@
 convertfunction = () => {
     let Name = document.getElementById("name").value
-    console.log(Name)
     const cls = document.getElementById("celsius").value
     if (document.getElementById("flexRadioDefault2").checked && Name!="" && cls!="") {
         
